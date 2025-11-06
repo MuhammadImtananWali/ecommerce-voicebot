@@ -1,0 +1,11 @@
+id,name,category,price,brand,description,color,features
+1,iPhone 15 Pro,smartphone,999,Apple,Latest iPhone with titanium design,Natural Titanium,A17 Pro chip|48MP camera|USB-C
+2,Samsung Galaxy S24,smartphone,799,Samsung,AI-powered Android flagship,Phantom Black,Snapdragon 8 Gen 3|50MP camera|7000mAh battery
+3,Nike Air Max 270,running shoes,150,Nike,Comfortable running shoes with air cushioning,Red,Air Max cushioning|Breathable mesh|Durable rubber sole
+4,Adidas Ultraboost 22,running shoes,180,Adidas,Premium running shoes with boost technology,Black,Boost midsole|Primeknit upper|Continental rubber
+5,MacBook Pro M3,laptop,1599,Apple,Professional laptop for creative work,Space Gray,M3 chip|16GB RAM|512GB SSD|Liquid Retina display
+6,ASUS ROG Strix G15,laptop,1299,ASUS,Gaming laptop with RTX graphics,Eclipse Gray,RTX 4060|AMD Ryzen 7|16GB RAM|1TB SSD
+7,Apple Watch Series 9,smartwatch,399,Apple,Advanced health and fitness tracking,Midnight,S9 chip|Always-On display|ECG|Blood oxygen
+8,Fitbit Inspire 3,smartwatch,99,Fitbit,Affordable fitness tracker,Black,6-day battery|24/7 heart rate|Sleep tracking
+9,Sony WH-1000XM5,headphones,399,Sony,Premium noise-canceling headphones,Black,30-hour battery|Adaptive noise canceling|Hi-Res audio
+10,AirPods Pro 2,headphones,249,Apple,Wireless earbuds with spatial audio,White,H2 chip|Adaptive transparency|MagSafe charging
