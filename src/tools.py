@@ -1,5 +1,5 @@
 from livekit.agents import function_tool
-from product_search import search_products
+from .services.product_search import search_products
 
 @function_tool
 async def find_product(query: str) -> list:

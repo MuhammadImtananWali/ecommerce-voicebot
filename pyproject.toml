@@ -7,4 +7,5 @@ dependencies = [
     "livekit-plugins-noise-cancellation~=0.2",
     "pandas>=2.3.3",
     "python-dotenv>=1.1.1",
+    "supabase>=2.10.0",
 ]

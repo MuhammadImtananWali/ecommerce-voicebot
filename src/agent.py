@@ -1,13 +1,9 @@
-from dotenv import load_dotenv
-
 from livekit import agents
 from livekit.agents import AgentSession, Agent, RoomInputOptions, inference
 from livekit.plugins import noise_cancellation, silero
 from livekit.plugins.turn_detector.multilingual import MultilingualModel
-from prompt import AGENT_INSTRUCTIONS, SESSION_INSTRUCTIONS
-from tools import find_product
-
-load_dotenv(".env.local")
+from .prompt import AGENT_INSTRUCTIONS, SESSION_INSTRUCTIONS
+from .tools import find_product
 
 
 class Assistant(Agent):
@@ -37,7 +33,3 @@ async def entrypoint(ctx: agents.JobContext):
     )
 
     await session.generate_reply(instructions=SESSION_INSTRUCTIONS)
-
-
-if __name__ == "__main__":
-    agents.cli.run_app(agents.WorkerOptions(entrypoint_fnc=entrypoint))
